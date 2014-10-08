@@ -1,0 +1,26 @@
+{
+	"name": "co-tape",
+	"version": "1.0.0",
+	"description": "Use Co to write Tape tests",
+	"keywords": ["co", "tape", "unit test"],
+	"main": "co-tape.js",
+	"scripts": {
+		"test": "node --harmony test-co-tape.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rektide/co-tape"
+	},
+	"author": "rektide",
+	"license": "X",
+	"bugs": {
+		"url": "https://github.com/rektide/co-tape/issues"
+	},
+	"homepage": "https://github.com/rektide/co-tape",
+	"dependencies": {
+		"co": "^3.1.0"
+	},
+	"devDependencies": {
+		"tape": "^3.0.0"
+	}
+}
